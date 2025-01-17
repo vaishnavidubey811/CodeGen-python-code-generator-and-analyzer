@@ -124,7 +124,7 @@ def find_code_errors(code):
     
     return "\n".join(error_report)
 
-
+#to get input and output using flask
 @app.route("/", methods=["GET", "POST"])
 def home():
     if request.method == "POST":
